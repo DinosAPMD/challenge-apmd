@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/ford_logo.png" alt="">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Projeto</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="text">
+            <span>Projeto Dinos</span>
+            <p>A solução proposta é uma câmera, que conseguirá fazer o reconhecimento facial do
+                motorista e caso não o reconheça irá se comunicar com o aplicativo Ford Pass, solicitando a
+                confirmação para o proprietário do carro ou uma pessoa que ele tenha cadastrado para isso,
+                dando a essa pessoa a possibilidade de travar o carro, desligar ou até mesmo ligar para a
+                polícia em caso de roubos ou furtos.
+            </p>
+            <p>Já durante o percurso, essa câmera conseguirá identificar sinais de cansaço ou
+                sonolência e irá emitir um som para alertá-lo, conseguindo assim inibir esses sintomas.
+            </p>
+        </div>
+        <img src="img/Tela_Home.png" alt="">
+    </section>
+    <section id="projeto">
+        <img src="img/Tela_Camera_Identificacao.png" alt="">
+        <div class="text">
+            <p>
+                <span>Infraestrutura:</span>
+                Utilizaremos serviço em nuvem para comunicação com o dispositivo IoT,
+                AWS IoT, para o banco de dados utilizaremos o AWS RDS, e para a hospedagem
+                da API utilizaremos o AWS EC2
+            </p>
+
+            <p>
+                <span>Detalhando a solução:</span>
+                consiste em um dispositivo IoT que será implementado no veículo de maneira
+                discreta, o dispositivo capta a face de quem está dirigindo e
+                analisa se a pessoa tem permissão para tal, se tiver analisa se a
+                pessoa está sonolenta, caso contrário, será enviado um sinal para o
+                aplicativo do dono do veículo e pessoas de segurança, com as possíveis ações,
+                desligar o veículo, travar o carro, e ligar para polícia (um texto predefinido
+                tocará para situar a localização do veículo e a situação dele para o atendente da
+                polícia local)
+            </p>
+
+            <p>
+                <span>Stack do projeto:</span>
+
+            <ul>
+                <li>C++ (esp32)</li>
+                <li>Python ( pi zero, reconhecimento )</li>
+                <li>C# (web API)</li>
+                <li>Javascript (react-native, mobile)</li>
+            </ul>
+
+
+
+            </p>
+
+        </div>
+    </section>
+    <section id="sobre">
+        <p id="integrantes">Nosso grupo:</p>
+        <p>
+            Nós integrantes do grupo Dinos, nos divimos em tarefas para o comprimento das atividades pedidas pelos
+            interlocutores da ford nesse projeto Challenge Sprint 2022
+        </p>
+        <div class="integrantes-holder">
+            <div class="card">
+                <img src="img/Agnes.jfif" alt="">
+                <div class="nome">
+                    <p>Agnes Ruescas</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="img/Jose.jfif" alt="">
+                <div class="nome">
+                    <p>José Leles</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Kauan.jfif" alt="">
+                <div class="nome">
+                    <p>Kauan Cleto</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Mayara.jfif" alt="">
+                <div class="nome">
+                    <p>Mayara Mafioletti</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Matheus.jpg" alt="">
+                <div class="nome">
+                    <p>Matheus Marinho</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img id="footer-logo" src="img/ford_logo.png" alt="">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Projeto</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

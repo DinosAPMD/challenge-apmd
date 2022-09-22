@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+    box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.25);
+}
+
+#logo{
+    height: 60px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0px 10px;
+}
+
+section{
+    display: flex;
+    height: 80%;
+}
+
+section .text{
+    width: 50%;
+}
+
+section .text p{
+    margin-top: 10px;
+}
+section .text span{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #003179;
+    width: 50%;
+}
+
+#home{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home img{
+    height: 90%;
+}
+
+#projeto{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(187, 187, 187, 0.301);
+
+}
+
+#projeto img{
+    height: 90%;
+}
+
+
+
+#sobre {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    height: 50%;
+}
+#sobre p{
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#sobre p#integrantes{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #003179;
+}
+
+
+.integrantes-holder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-destaque);
+    width: 12em;
+    height: 12em;
+    border-radius: 6px;
+    padding-bottom: 5px;
+    margin-left: .8rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.card .nome{
+    margin: 1.3rem 0;
+    color: var(--cor-texto);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.card img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    padding: 50px;
+    box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.25);
+}
+
+#footer-logo{
+    height: 50px;
+    width: 150px;
+}
